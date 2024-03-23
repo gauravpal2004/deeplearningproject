@@ -1,4 +1,6 @@
 from setuptools import find_packages,setup
+import typing
+from typing import List
 
 HYPEN_E_DOT='-e .'
 
@@ -18,9 +20,9 @@ setup(
 
 name ="Xray",
 version ="0.0.1",
-author="Gaurav Pal"
-author_email="palgaurav19067@gmail.com"
-install_requires =get_requirements(),
+author="Gaurav Pal",
+author_email="palgaurav19067@gmail.com",
+install_requires =get_requirements(r"C:\\Users\\Hp\\OneDrive\\Desktop\\deeplearningproject\\requirements_dev.txt"),
 package=find_packages()
 
 )
